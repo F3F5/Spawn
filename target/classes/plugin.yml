@@ -1,8 +1,0 @@
-name: Spawn
-version: '1.0'
-main: f3f5.spawn.Spawn
-commands:
-  setspawn:
-    description: Put the point of appearance
-  spawn:
-    description: Travel to the point of appearance
