@@ -60,7 +60,7 @@ public class Spawn extends JavaPlugin implements Listener {
                      p.teleport(this.loc);
                      return true;
                   } else {
-                     p.sendMessage("§cThe spawn is not configured.");
+                     p.sendMessage("§cThe spawn is not configured. Use: /setspawn");
                      return true;
                   }
                } else {
@@ -120,7 +120,7 @@ public class Spawn extends JavaPlugin implements Listener {
       if (this.getConfig().getString("loc.world") != null) {
          p.teleport(this.loc);
       } else {
-         p.sendMessage("§c§lERROR: §7The spawn is not configured. Use: /setspawn");
+         p.sendMessage("§cThe spawn is not configured. Use: /setspawn");
       }
 
    }
